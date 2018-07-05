@@ -18,7 +18,7 @@ $(document).ready(function(){
   const blueSound = new Audio("https://s3.amazonaws.com/freecodecamp/simonSound3.mp3");
   const yellowSound = new Audio("https://s3.amazonaws.com/freecodecamp/simonSound4.mp3");
 
-  
+  //a function to create random number
   function random(){
     rand=(Math.random()*3).toFixed();
     return rand;
